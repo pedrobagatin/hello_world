@@ -1,0 +1,11 @@
+namespace: pedrobagatin
+name: hello_world
+version: 1.0.0
+readme: README.md
+authors:
+- Pedro Bagatin <pedrobagatin@yahoo.com.br>
+description: Minha primeira collection Ansible
+license: MIT
+repository: https://github.com/pedrobagatin/ansible-collection-hello-world
+homepage: https://github.com/pedrobagatin/ansible-collection-hello-world
+issues: https://github.com/pedrobagatin/ansible-collection-hello-world/issues

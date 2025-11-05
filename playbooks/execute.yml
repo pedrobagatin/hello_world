@@ -1,0 +1,22 @@
+- name: Testing my collection
+  hosts: localhost
+  gather_facts: false
+
+  tasks:
+    - name: Basic hello world
+      pedrobagatin.hello_world.hello:
+      register: result1
+
+    - name: Show basic result
+      debug:
+        var: result1.message
+
+    - name: Custom greeting with name
+      pedrobagatin.hello_world.hello:
+        greeting: Olá
+        name: Pedro
+      register: result2
+
+    - name: Show custom result
+      debug:
+        var: result2.message
