@@ -5,7 +5,7 @@ DOCUMENTATION = r'''
 ---
 module: hello
 short_description: A simple hello world module
-version_added: "1.0.0"
+version_added: "1.0.1"
 description: 
     - This module prints a custom greeting message
     - Can be used as a test or example module
