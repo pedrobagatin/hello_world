@@ -1,6 +1,6 @@
 namespace: pedrobagatin
 name: hello_world
-version: 1.0.2
+version: 1.0.3
 readme: README.md
 authors:
 - Pedro Bagatin <pedrobagatin@yahoo.com.br>
